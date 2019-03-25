@@ -7,45 +7,45 @@
 Leonardo da Vinci Quiz
 </h3>
 </p>
-#<form action="grade.php" method="post" id="quiz">
-#<li>
-#
- #   <h3>Leonardo was born in...</h3>
-  # <div>
-   #     <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-    #    <label for="question-1-answers-A">A) The United States of America</label>
-#    </div>
-#    
-#    <div>
-#        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-#        <label for="question-1-answers-B">B) Italy</label>
-#    </div>
-#    
-#    <div>
-#        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-#        <label for="question-1-answers-C">C) France</label>
-#    </div>
-#    
-#    <div>
-#        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-#        <label for="question-1-answers-D">D) Mars</label>
-#    </div>
-#
-#</li>
-#    <input type="submit" value="Submit Quiz" />
-#    <?php
- #   
-#    $answer1 = $_POST['question-1-answers'];
-#
-#    $totalCorrect = 0;
-#    
-#    if ($answer1 == "B") { $totalCorrect++; }
-#
-#    
-#    echo "<div id='results'>$totalCorrect / 5 correct</div>";
-#    
-#?>
-#    </input>
+<form action="grade.php" method="post" id="quiz">
+<li>
+
+    <h3>Leonardo was born in...</h3>
+   <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+        <label for="question-1-answers-A">A) The United States of America</label>
+    </div>
+    
+    <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+        <label for="question-1-answers-B">B) Italy</label>
+    </div>
+    
+    <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+        <label for="question-1-answers-C">C) France</label>
+    </div>
+    
+    <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+        <label for="question-1-answers-D">D) Mars</label>
+    </div>
+
+</li>
+    <input type="submit" value="Submit Quiz" />
+    <?php
+    
+    $answer1 = $_POST['question-1-answers'];
+
+    $totalCorrect = 0;
+    
+    if ($answer1 == "B") { $totalCorrect++; }
+
+    
+    echo "<div id='results'>$totalCorrect / 5 correct</div>";
+    
+?>
+    </input>
 <p class="question">1. Leonardo was born in...</p>
 
 <ul class="answers">#\
