@@ -1,5 +1,4 @@
-<html>
-    <?php
+<?php
     
     $answer1 = $_POST['question-1-answers'];
 
@@ -11,4 +10,3 @@
     echo "<div id='results'>$totalCorrect / 5 correct</div>";
     
 ?>
-</html>
