@@ -1,0 +1,97 @@
+
+<form action="grade.php" method="post" id="quiz">
+<li>
+
+    <h3>Leonardo was born in...</h3>
+   <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+        <label for="question-1-answers-A">A) The United States of America</label>
+    </div>
+    
+    <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+        <label for="question-1-answers-B">B) Italy</label>
+    </div>
+    
+    <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+        <label for="question-1-answers-C">C) France</label>
+    </div>
+    
+    <div>
+        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+        <label for="question-1-answers-D">D) Mars</label>
+    </div>
+
+</li>
+    <input type="submit" value="Submit Quiz" />
+
+<p class="question">1. Leonardo was born in...</p>
+
+<ul class="answers">
+
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">The United States of America</label><br/>
+
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Italy</label><br/>
+
+<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">France</label><br/>
+
+<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Mars</label><br/>
+
+</ul>
+
+<div id="results">
+
+The Right answers is
+
+</div>
+
+<div id="category1">
+
+<p><strong>Question 1:</strong> The correct answer is the <strong>Italy</strong>.</p>
+
+</div>
+<?php 
+
+$Questions = array(
+    1 => array(
+        'Question' => 'Leonardo was born in...',
+        'Answers' => array(
+            'A' => 'The United States of America',
+            'B' => 'Italy',
+            'C' => 'France'
+        ),
+        'CorrectAnswer' => 'B'
+    ),
+    2 => array(
+        'Question' => 'Second question',
+        'Answers' => array(
+            'A' => 'First answer of Second question',
+            'B' => 'Second answer Second question',
+            'C' => 'Third answer Second question'
+        ),
+        'CorrectAnswer' => 'C'
+    )
+);
+
+if (isset($_POST['answers'])){
+    $Answers = $_POST['answers']; // Get submitted answers.
+
+    // Now this is fun, automated question checking! ;)
+
+    foreach ($Questions as $QuestionNo => $Value){
+        // Echo the question
+        echo $Value['Question'].'<br />';
+
+        if ($Answers[$QuestionNo] != $Value['CorrectAnswer']){
+            echo '<span style="color: red;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; // Replace style with a class
+        } else {
+            echo '<span style="color: green;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; // Replace style with a class
+        }
+        echo '<br /><hr>';
+    }
+} else {
+?>
+    <form action="grade.php" method="post" id="quiz">
+    <?php foreach ($Questions as $QuestionNo => $Value){ ?>
+    <li>
