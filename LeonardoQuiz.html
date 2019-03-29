@@ -6,6 +6,8 @@
 Leonardo da Vinci Quiz
 </h3>
 <link rel="stylesheet" href="styles.css">
+<div id="quiz"></div>
+<div id="results"></div>
 <script>
 (function() {
   function buildQuiz() {
@@ -61,8 +63,7 @@ Leonardo da Vinci Quiz
 
         // color the answers green
         answerContainers[questionNumber].style.color = "lightgreen";
-      } else {
-        // if answer is wrong or blank
+      } else {        // if answer is wrong or blank
         // color the answers red
         answerContainers[questionNumber].style.color = "red";
       }
@@ -114,6 +115,4 @@ Leonardo da Vinci Quiz
 })();
 </script>
 <script>buildQuiz()</script>
-<div id="quiz"></div>
 <button id="submit">Submit Quiz</button>
-<div id="results"></div>
