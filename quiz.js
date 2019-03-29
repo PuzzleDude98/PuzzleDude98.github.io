@@ -96,7 +96,7 @@
       },
       correctAnswer: "c"
     },
-   {
+    {
       question: "What is the best site about leonardo da vinci?",
       answers: {
         a: "Wikipedia",
@@ -106,7 +106,6 @@
       },
       correctAnswer: "b"
     },
-
     {
       question: "Where did I think he got his ideas?",
       answers: {
