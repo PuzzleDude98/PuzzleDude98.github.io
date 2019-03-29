@@ -71,18 +71,40 @@
       answers: {
         a: "The United States of America",
         b: "Italy",
-        c: "France"
+        c: "France",
+        d: "Mars"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "Who was he assistant and apprentice to?",
+      answers: {
+        a: "Andrea del Verrocchio",
+        b: "Adalberto Cipriano",
+        c: "Michalangelo",
+        d: "John Cena"
+      },
+      correctAnswer: "a"
+    },
+    {
+      question: "Whitch of the following did he *not* help invent(or at least from the info on this site did not say?",
+      answers: {
+        a: "Bycicles",
+        b: "Helecopters",
+        c: "Hang Gliders",
+        d: "Machine Guns"
       },
       correctAnswer: "c"
     },
-    {
-      question: "What is the best site ever created?",
+   {
+      question: "What is the best site about leonardo da vinci?",
       answers: {
-        a: "SitePoint",
-        b: "Simple Steps Code",
-        c: "Trick question; they're both the best"
+        a: "Wikipedia",
+        b: "PuzzleDude98.github.io",
+        c: "Biography.com",
+        d: "Britannica"
       },
-      correctAnswer: "c"
+      correctAnswer: "b"
     },
     {
       question: "Where is Waldo really?",
