@@ -87,7 +87,7 @@
       correctAnswer: "a"
     },
     {
-      question: "Whitch of the following did he *not* help invent(or at least from the info on this site did not say?",
+      question: "Whitch of the following did he NOT help invent(or at least this site did not mention)?",
       answers: {
         a: "Bycicles",
         b: "Helecopters",
@@ -105,6 +105,17 @@
         d: "Britannica"
       },
       correctAnswer: "b"
+    },
+
+    {
+      question: "Where did I think he got his ideas?",
+      answers: {
+        a: "Just saw how things worked",
+        b: "Sold ideas",
+        c: "Aliens",
+        d: "Childhood experiences"
+      },
+      correctAnswer: "a"
     },
     {
       question: "Where is Waldo really?",
