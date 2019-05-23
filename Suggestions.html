@@ -8,7 +8,7 @@
     function submitters(){
     event.preventDefault();
 
-        $.post( "mail.php.txt", $( "#form1" ).serialize(),function( data ) {
+        $.post( "mail.php", $( "#form1" ).serialize(),function( data ) {
 $("#formcontainer").fadeOut("slow");
 $("#formcontainer").html(data);
     } );
