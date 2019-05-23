@@ -1,0 +1,27 @@
+ <html>
+        <head>
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+        <script>
+    function submitters(){
+    event.preventDefault();
+
+        $.post( "mail.php.txt", $( "#form1" ).serialize(),function( data ) {
+$("#formcontainer").fadeOut("slow");
+$("#formcontainer").html(data);
+    } );
+    }
+        </script>
+        </head>
+        <body>
+        <div id="formcontainer">
+        <form id="form1" name="form1" method="post" action="">
+            <label>
+            <textarea name="input" id="input" cols="45" rows="5"></textarea>
+            </label>
+            <input Onclick="submitters()" type="button" name="export" id="export" value="Submit" />
+
+            </form>
+    </div>
+        </body>
+    </html>
