@@ -1,6 +1,6 @@
 <?php
 $input=$_POST['input'];
-$to      = 'oliverrt26@hotmail.com';
+$to      = 'puzzledude98@outlook.com';
 $subject = 'Another Suggestion';
 $message = $input;
 $headers = 'From: puzzledude98.github.io' . "\r\n" .
