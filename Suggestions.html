@@ -27,5 +27,23 @@ $("#formcontainer").html(data);
 
             </form>
     </div>
+
+
+
+<script>
+$(document).ready(function() {
+    $('#bt1').click(function() {
+        $('#fr1').attr('action',
+                       'mailto:puzzledude98@outlook.com?subject=Another Suggestion' +
+                       $('#tb1').val() + '&body=' + $('#tb2').val());
+        $('#fr1').submit();
+    });
+});
+</script>
+<form id="fr1">
+    <input type="text" id="tb1" />
+    <input type="text" id="tb2" />
+    <input type="button" id="bt1" value="click" />
+</form>
         </body>
     </html>
