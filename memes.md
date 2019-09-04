@@ -32,7 +32,7 @@ Memes
 <br>
 <img src="Solving Bugs.jpg" alt="Sorry, this meme can't appear on this browser/device." height="400" width="650">
 <br>
-<button onclick="window.location.href = 'index.html';">Back to Home Page</button>
+<button onclick="window.location.href = 'index';">Back to Home Page</button>
 <br>
 *Not all memes will be accepted due to various reasons
 </html>
