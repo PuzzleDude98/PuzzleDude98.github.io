@@ -5,7 +5,7 @@
 <h1>
 Puzzle Dude98's Wonderful Site
 </h1>
- <p><h2><i>Where content is our priority, not looks!</i></h2></p>
+ <br
  <button onclick="window.location.href = 'games';">Games</button>
  <br>
  <button onclick="window.location.href = 'music';">Music</button>
