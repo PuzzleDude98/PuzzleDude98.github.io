@@ -1,11 +1,8 @@
 <html>
-<head>
-<title>Memes</title>
-</head>
 <p>
-<h3>
+<h1>
 Memes
-</h3>
+</h1>
 <h1>You can suggest memes to put on here by e-mailing <a href="mailto:puzzledude98@outlook.com?subject=Meme%20Suggestion">puzzledude98@outlook.com</a> your memes!*</h1>
 </p>
 <img src="gru.jpg" alt="Sorry, this meme can't appear on this browser/device.">
