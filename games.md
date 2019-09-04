@@ -23,5 +23,5 @@ Games
 <br>
 <button onclick="window.location.href = 'pacman.html';">Pac-Man</button>
 <br>
-<button onclick="window.location.href = 'index.html';">Back to Home Page</button>
+<button onclick="window.location.href = 'index';">Back to Home Page</button>
 </html>
