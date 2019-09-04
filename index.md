@@ -3,7 +3,7 @@
 <title>Home Page</title>
 </head>
 <h1>
-Puzzle Dude98's Wonderful Site
+Home Page
 </h1>
  <br
  <button onclick="window.location.href = 'games';">Games</button>
