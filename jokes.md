@@ -3,9 +3,9 @@
 <title>Jokes</title>
 </head>
 <p>
-<h2>
+<!--<h2>
 Jokes
-</h2>
+</h2>-->
 </p>
 <br>
 <h3>Got jokes you want to see on here? E-mail them to <a href="mailto:puzzledude98@outlook.com?subject=Joke%20Suggestion">puzzledude98@outlook.com</a>!</h3>
