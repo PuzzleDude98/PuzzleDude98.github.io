@@ -25,5 +25,5 @@ Scratch Saga
 <br>
 <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/306115051/?autostart=true" frameborder="0" allowfullscreen></iframe>
 <br>
-<button onclick="window.location.href = 'index.html';">Back to Home Page</button>
+<button onclick="window.location.href = 'index';">Back to Home Page</button>
 </html>
