@@ -29,4 +29,4 @@ The buttons read jokes, and clicking on them pops up a punchline!
 <!--<br>
 <button onclick="alert('PLine');">Joke</button>-->
 <br><br>
-<button onclick="window.location.href = 'index.html';">Back to Home Page</button>
+<button onclick="window.location.href = 'index';">Back to Home Page</button>
