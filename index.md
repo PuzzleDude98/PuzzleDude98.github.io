@@ -5,7 +5,6 @@
 <h1>
 Home Page
 </h1>
- <br
  <button onclick="window.location.href = 'games';">Games</button>
  <br>
  <button onclick="window.location.href = 'music';">Music</button>
