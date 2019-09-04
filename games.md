@@ -1,11 +1,8 @@
 <html>
-<head>
-<title>Games</title>
-</head>
 <p>
-<h3>
+<h1>
 Games
-</h3>
+</h1>
 </p>
 <button onclick="window.location.href = 'papalouie.html';">Papa Louie</button>
 <br>
