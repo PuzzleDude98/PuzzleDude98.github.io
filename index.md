@@ -1,7 +1,4 @@
 <html>
-<head>
-<title>Home Page</title>
-</head>
 <h1>
 Home Page
 </h1>
