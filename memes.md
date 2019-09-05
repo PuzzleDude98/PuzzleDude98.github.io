@@ -29,6 +29,8 @@ Memes
 <br>
 <img src="Solving Bugs.jpg" alt="Sorry, this meme can't appear on this browser/device." height="400" width="650">
 <br>
+<img src="cats.jpg" alt="Sorry, this meme can't appear on this browser/device.">
+<br>
 <button onclick="window.location.href = 'index';">Back to Home Page</button>
 <br>
 *Not all memes will be accepted due to various reasons
