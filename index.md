@@ -10,7 +10,7 @@ Home Page
  <br>
 <button onclick="window.location.href = 'jokes';">Jokes</button>
 <br>
-<button onclick="window.location.href = 'scratchsaga';">Scratch Saga</button> (Visit <a href="http://www.scratch.mit.edu">scratch</a> to get familiar with it first)
+<button onclick="window.location.href = 'simulation';">PheT Simulations</button>
 <br> 
 <button onclick="window.location.href = 'http://www.geekprank.com/hacker/';">Hacker Prank</button>
   <br>
