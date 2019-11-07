@@ -7,5 +7,5 @@
 <br> 
 Thanks to PHeT for all simulations
 <br>
-<button onclick="window.location.href = 'index';">Back to Home Page</button>\
+<button onclick="window.location.href = 'index';">Back to Home Page</button>
 </html>
