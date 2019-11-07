@@ -4,8 +4,8 @@
 <button onclick="window.location.href = 'balance';">Balancing Act</button>
 <br> 
 <button onclick="window.location.href = 'wave';">Wave on a String</button>
-<br> 
-Thanks to PHeT for all simulations
 <br>
 <button onclick="window.location.href = 'index';">Back to Home Page</button>
+<br> 
+Thanks to PHeT for all simulations
 </html>
