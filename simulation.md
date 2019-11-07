@@ -1,7 +1,7 @@
 <html>
 <h1>PHeT Simulations</h1>
 <br>
-<button onclick="window.location.href = 'balance';">Balancing</button>
+<button onclick="window.location.href = 'balance';">Balancing Act</button>
 <br> 
 <button onclick="window.location.href = 'wave';">Wave on a String</button>
 <br> 
