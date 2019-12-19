@@ -5,6 +5,8 @@
 <br> 
 <button onclick="window.location.href = 'wave';">Wave on a String</button>
 <br>
+<button onclick="window.location.href = 'lunar';">Lunar Lander</button>
+<br>
 <button onclick="window.location.href = 'index';">Back to Home Page</button>
 <br> 
 Thanks to PHeT for all simulations
