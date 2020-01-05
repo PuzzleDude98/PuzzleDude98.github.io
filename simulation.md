@@ -7,6 +7,8 @@
 <br>
 <button onclick="window.location.href = 'lander';">Lunar Lander</button>
 <br>
+<button onclick="window.location.href = 'charges';">Charges and Fields</button>
+<br>
 <button onclick="window.location.href = 'index';">Back to Home Page</button>
 <br> 
 Thanks to PHeT for all simulations
