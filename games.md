@@ -13,7 +13,4 @@ Games
 <button onclick="window.location.href = 'https://replit.com/@OliverThornton3/Paper-Dungeon-layer-1?v=1';">Paper Dungeon</button>
 <br>
 <button onclick="window.location.href = 'index';">Back to Home Page</button>
-
-
-https://replit.com/@OliverThornton3/Paper-Dungeon-layer-1?v=1
 </html>
