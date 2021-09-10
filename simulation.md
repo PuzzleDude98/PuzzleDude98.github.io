@@ -9,7 +9,7 @@
 <br>
 <button onclick="window.location.href = 'charges';">Charges and Fields</button>
 <br>
-<button onclick="window.location.href = 'hockey';">Electric Field Hockey</button>
+<button onclick="window.location.href = 'hockey';">Electric Field Hockey (java download)</button>
 <br>
 <button onclick="window.location.href = 'index';">Back to Home Page</button>
 <br> 
