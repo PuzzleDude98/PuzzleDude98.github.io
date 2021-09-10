@@ -4,10 +4,6 @@
 Games
 </h1>
 </p>
-<button onclick="window.location.href = 'papalouie.html';">Papa Louie</button>
-<br>
-<button onclick="window.location.href = 'pacman.html';">Pac-Man</button>
-<br>
 <button onclick="window.location.href = 'Cubes.html';">Dodge The Cubes</button>
 <br>
 <button onclick="window.location.href = 'https://replit.com/@PuzzleBoi98/Paper-Dungeon-layer-1?v=1';">Paper Dungeon</button>
