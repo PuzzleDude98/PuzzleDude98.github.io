@@ -4,8 +4,6 @@ Home Page
 </h1>
  <button onclick="window.location.href = 'games';">Games</button>
  <br>
- <button onclick="window.location.href = 'music';">Music</button>
- <br>
  <button onclick="window.location.href = 'memes';">Memes</button>
  <br>
 <button onclick="window.location.href = 'jokes';">Jokes</button>
@@ -18,5 +16,5 @@ Home Page
    <br>
   <button onclick="window.location.href = 'NERD';">New Elvish Restored Digitized Translator</button>
  <br>
- <h3><i>Please e-mail all suggestions and comments to <a href="mailto:puzzledude98@outlook.com?subject=Suggestion/Comment">puzzledude98@outlook.com</a></i></h3>
+ <h3><i>Please dont click on anything but games and PHET simulations</a></i></h3>
 </html>
