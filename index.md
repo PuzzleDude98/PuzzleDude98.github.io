@@ -16,5 +16,5 @@ Home Page
    <br>
   <button onclick="window.location.href = 'NERD';">New Elvish Restored Digitized Translator</button>
  <br>
- <h3><i>Please dont click on anything but games and PHET simulations</a></i></h3>
+ <h3><i>Please dont click on anything but games and PHET simulations</i></h3>
 </html>
