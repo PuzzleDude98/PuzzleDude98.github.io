@@ -5,7 +5,7 @@
 <br> 
 <button onclick="window.location.href = 'wave';">Wave on a String</button>
 <br>
-<button onclick="window.location.href = 'lander';">Lunar Lander</button>
+<button onclick="window.location.href = 'lander';">Lunar Lander (flash)</button>
 <br>
 <button onclick="window.location.href = 'charges';">Charges and Fields</button>
 <br>
