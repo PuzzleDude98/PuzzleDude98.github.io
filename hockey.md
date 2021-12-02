@@ -6,5 +6,6 @@
         height="600"
         allowfullscreen>
 </iframe>
+<br>
 <button onclick="window.location.href = 'simulation';">Back to Simulations</button>
 </html>
