@@ -7,5 +7,6 @@
   <br>
   Press space to move forward one timestep(instead of go buton)
   the little circles are instead of the arrows
-  there is no modes
+  <br>
+  there is no modes or track
 <html>
